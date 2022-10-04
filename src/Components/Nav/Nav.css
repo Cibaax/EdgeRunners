@@ -1,0 +1,43 @@
+*{
+  text-decoration:none;
+  list-style:none;
+  margin:0px;
+  padding:0px;
+  outline:none;}
+.Nav{
+  width:100%; 
+  display:table; 
+  
+}
+.logo-edgerunners{
+  width: 300px;
+  height: auto;
+  align-items: flex-start;
+}
+Nav{
+  width:auto; float:right;
+}
+Nav ul{
+  display:table;
+  float:right;
+}
+Nav ul li{
+  float:left;
+}
+Nav ul li:last-child{
+  padding-right:0px;
+}
+Nav ul li a{
+  color:yellow;
+  font-size:18px;
+  padding: 25px 20px;
+  display:inline-block;
+  transition: all 0.5s ease 0s;
+}
+Nav ul li a:hover{
+  color:blue;
+  transition: all 0.5s ease 0s;
+}
+Nav ul li a i{
+  padding-right:10px
+}
