@@ -6,8 +6,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: grey;
-}
+/*   background: url('./img/background.png');
+  background-size: cover;
+  
+ */
+ background: url(./img/background.png)no-repeat center center fixed;
+ background-size:contain;
+ background-repeat: repeat;}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

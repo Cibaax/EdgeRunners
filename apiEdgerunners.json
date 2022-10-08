@@ -1,0 +1,187 @@
+{
+  "characters": [
+    {
+      "age": "17-18",
+      "alias": "David",
+      "description": "David Martinez was born to Gloria Martinez and an unknown father. He grew up on the streets of Santo Domingo, while living out of an apartment of Megabuilding H4 in Arroyo. Due to his mother putting great effort into her job as an EMT for Night City Medical Center, David was eligible for enrollment into the Arasaka Academy located in Corpo Plaza. After joining the academy, he began selling XBDs to classmates that he obtained from a ripperdoc friend of his called Doc.",
+      "id": 1,
+      "image": "https://static.wikia.nocookie.net/cyberpunk/images/a/ac/David_Infobox_CPEDGE.png",
+      "name": "David Martinez",
+      "status": "Deceased"
+    },
+    {
+      "age": "Around 20",
+      "alias": "Lucy",
+      "description": "Lucy is of Japanese and Polish descent, and was selected at a young age after having taken a proficiency test alongside 12 other children to receive training at an undisclosed Arasaka facility and become a netrunner. Being led on by the dream of serving the world's most powerful megacorp one day, got her and the others through the toughest days and training. When their training concluded, they were moved underground to participate in deep dives into the pre-DataKrash Net, as Arasaka sent them looking for knowledge that was lost. As they dove into the Net, they were susceptible to old world daemons and rogue AIs. The children were picked off one by one, and it didn't take long until only a handful of them were left. After realizing that they could pursue other dreams, instead of being enslaved by the corporation, the remaining children, including Lucy, used their netrunning skills to overwhelm the Arasaka staff and escape. While making their escape, most of the children were shot down one-by-one, and only Lucy managed to survive. After escaping, Lucy woke up in a junkyard, not planning to stay long. Roaming from place to place, eventually she ended up in Night City, no longer feeling like she was being chased by the megacorp.",
+      "id": 2,
+      "image": "https://static.wikia.nocookie.net/cyberpunk/images/f/ff/Lucy_Infobox_CPEDGE.png",
+      "name": "Lucyna Kushinada",
+      "status": "Alive"
+    },
+    {
+      "age": "Around 20",
+      "alias": "Becka",
+      "description": "Rebecca was an edgerunner of Night City, and is described as a short, spunky, trigger-happy solo who is always fighting with her brother Pilar. The two siblings often teamed up with Maine and his crew to conduct mercenary jobs, although their daily life outside of work was tense, since they would always fight with each other, because of Pilar's provocative behavior, this caused her to decide that she would be the only person to kill her brother someday. Rebecca first met and worked with David Martinez during the limo heist, distracting Maxim by spilling booze on him and sensually cleaning it, though this failed since Maxim noticed the key was missing, calling her a bitch, to which she replied that he was weird. During the attack in Corpo Plaza, Rebecca reunited with Lucy and told her she was glad that she was safe for David's sake but was crushed moments later by Adam Smasher, her last words being \"Fuck you\"",
+      "id": 3,
+      "image": "https://static.wikia.nocookie.net/cyberpunk/images/1/19/Rebecca_Infobox_CPEDGE.png",
+      "name": "Rebecca",
+      "status": "Deceased"
+    },
+    {
+      "age": "Unknown",
+      "alias": "Maine",
+      "description": "Maine used to be a military soldier before he became a mercenary. Now a veteran edgerunner in Night City, Maine dreams of \"making it big\", although he values his friendships with his crew more than his own glory.",
+      "id": 4,
+      "image": "https://static.wikia.nocookie.net/cyberpunk/images/f/fe/Maine_Infobox_CPEDGE.png",
+      "name": "Maine",
+      "status": "Deceased"
+    },
+    {
+      "age": "Late 30s",
+      "alias": "Dorio",
+      "description": "Dorio is a veteran edgerunner and Maine's right-hand. She's jacked and strong, but despite her tough exterior, Dorio has a soft side that she only shows to the people she trusts",
+      "id": 5,
+      "image": "https://static.wikia.nocookie.net/cyberpunk/images/6/68/Dorio_Infobox_CPEDGE.jpg",
+      "name": "Dorio",
+      "status": "Deceased"
+    },
+    {
+      "age": "Unknown",
+      "alias": "Kiwi",
+      "description": "A member of Maine's crew of mercenaries, Kiwi is an enigmatic and snarky netrunner with a detachable cybernetic jaw mask. She also acts as a mentor to Lucy",
+      "id": 6,
+      "image": "https://static.wikia.nocookie.net/cyberpunk/images/6/6a/Kiwi_Infobox_CPEDGE.jpg",
+      "name": "Kiwi",
+      "status": "Deceased"
+    },
+    {
+      "age": "Late 30s",
+      "alias": "Pilar",
+      "description": "Pilar was an edgerunner of Night City, and was described as a comical and crude techie. He and his sister Rebecca often team up with Maine and his crew to conduct mercenary jobs. Pilar met his demise after jesting and taunting a cyberpsycho, whom shot him in the head with their Projectile Launch System from close range, destroying most of Pilar's skull",
+      "id": 7,
+      "image": "https://static.wikia.nocookie.net/cyberpunk/images/c/c6/Pilar_Infobox_CPEDGE.jpg",
+      "name": "Pilar",
+      "status": "Deceased"
+    },
+    {
+      "age": "Unknown",
+      "alias": "Falco",
+      "description": "Falco was a Nomad wheelman, and was part of Maine's edgerunner crew. Shortly after Maine's death, he joined David's crew. After David's death, Falco became a recluse.",
+      "id": 8,
+      "image": "https://static.wikia.nocookie.net/cyberpunk/images/6/6d/Falco_Infobox_CPEDGE.jpg",
+      "name": "Falco",
+      "status": "Alive"
+    },
+    {
+      "age": "Unknown",
+      "alias": "Gloria",
+      "description": "Gloria and her son David lived in an apartment of Megabuilding H4 in Santo Domingo, Night City. She was an emergency medical technician (EMT) who scraped by to provide for her son, both by working long hours into the night and by selling high-priced and rare Cyberware she took off corpses to sell to edgerunners. One such instance would be the military-grade Sandevistan she took off James Norris's body after he was subdued by MaxTac, she would plastic wrap it and hide it on the inside of her coat waiting for her buyer Maine",
+      "id": 9,
+      "image": "https://static.wikia.nocookie.net/cyberpunk/images/d/d9/Gloria_Infobox_CPEDGE.png",
+      "name": "Gloria Martinez",
+      "status": "Deceased"
+    },
+    {
+      "age": "Unknown",
+      "alias": "Doc",
+      "description": "A surgeon by day, Doc moonlights as an illicit ripperdoc who hands out black market goods to the residents of Santo Domingo, something that David is aware of",
+      "id": 10,
+      "image": "https://static.wikia.nocookie.net/cyberpunk/images/5/5c/Doc_Infobox_CPEDGE.png",
+      "name": "Unknown",
+      "status": "Alive"
+    },
+    {
+      "age": "Unknown",
+      "alias": "Faraday",
+      "description": "Faraday is a ruthless fixer who works for Militech and has a distinctive optic cyberware that gives him four eyes. He is based in Santo Domingo and often hires Maine and his crew to conduct jobs that usually involve them performing corporate espionage against Arasaka.",
+      "id": 11,
+      "image": "https://static.wikia.nocookie.net/cyberpunk/images/f/f6/Faraday_Infobox_CPEDGE.jpg",
+      "name": "Faraday",
+      "status": "Deceased"
+    }
+  ],
+  
+  "episodes":[
+    {
+      "name":"Let You Down",
+      "id":0,
+      "duration":"24:14",
+      "link":"https://www3.animeflv.net/ver/cyberpunk-edgerunners-1",
+      "img":"https://static.wikia.nocookie.net/cyberpunk/images/b/b1/LetYouDown_Infobox_CPEDGE.png",
+      "description":"After a night of streaming illegal braindance, David wakes up to reality: a rundown apartment with a broken washing machine and an overworked mother."
+    },
+    {
+      "name":"Like A Boy",
+      "id":1,
+      "duration":"24:12",
+      "link":"https://www3.animeflv.net/ver/cyberpunk-edgerunners-2",
+      "img":"https://static.wikia.nocookie.net/cyberpunk/images/d/d2/LikeABoy_Infobox_CPEDGE.png",
+      "description":"With his newly enhanced body, David heads to the Academy seeking revenge on his bully. Later, he meets a mysterious woman who wants to recruit him."
+    },
+    {
+      "name":"Smooth Criminal",
+      "id":2,
+      "duration":"24m20",
+      "link":"https://www3.animeflv.net/ver/cyberpunk-edgerunners-3",
+      "img":"https://static.wikia.nocookie.net/cyberpunk/images/e/e4/SmoothCriminal_Infobox_CPEDGE.png",
+      "description":"Surrounded by a group of rowdy edgerunners, David makes a plea to join their team. Meanwhile, sinister forces plot to lure him back to Arasaka Academy."
+    },
+    {
+      "name":"Lucky You",
+      "id":3,
+      "duration":"24:12",
+      "link":"https://www3.animeflv.net/ver/cyberpunk-edgerunners-4",
+      "img":"https://static.wikia.nocookie.net/cyberpunk/images/c/c3/LuckyYou_Infobox_CPEDGE.png",
+      "description":"Eager to learn the edgerunner ropes, David pesters Maine for another mission. Instead, Maine tasks Lucy with training him."
+    },
+    {
+      "name":"All Eyez On Me",
+      "id":4,
+      "duration":"23:30",
+      "link":"https://www3.animeflv.net/ver/cyberpunk-edgerunners-5",
+      "img":"https://static.wikia.nocookie.net/cyberpunk/images/0/00/AllEyezOnMe_Infobox_CPEDGE.png",
+      "description":"David makes a clever suggestion when the team strategizes for their next mission. However, he soon learns that their target can't be underestimated."
+    },
+    {
+      "name":"Girl on Fire",
+      "id":5,
+      "duration":"25:48",
+      "link":"https://www3.animeflv.net/ver/cyberpunk-edgerunners-6",
+      "img":"https://static.wikia.nocookie.net/cyberpunk/images/e/ed/GirlOnFire_Infobox_CPEDGE.png",
+      "description":"Maine doesn’t seem to be himself. But the team has bigger fish to fry: They must race against time to extract vital information from their prisoner."
+    },
+    {
+      "name":"Stronger",
+      "id":6,
+      "duration":"24:14",
+      "link":"https://www3.animeflv.net/ver/cyberpunk-edgerunners-7",
+      "img":"https://static.wikia.nocookie.net/cyberpunk/images/5/55/Stronger_Infobox_CPEDGE.png",
+      "description":"Now an all-star edgerunner enhanced with more cybernetics, David leads his team into a new mission. An old contact reaches out to him for a big job."
+    },
+    {
+      "name":"Stay",
+      "id":7,
+      "duration":"24:16",
+      "link":"https://www3.animeflv.net/ver/cyberpunk-edgerunners-8",
+      "img":"https://static.wikia.nocookie.net/cyberpunk/images/f/f4/Stay_Infobox_CPEDGE.png",
+      "description":"Faraday finds himself stuck between Arasaka and Militech. Lucy and Rebecca confront David about his change in behavior, but he refuses to listen."
+    },
+    {
+      "name":"Humanity",
+      "id":8,
+      "duration":"25:18",
+      "link":"https://www3.animeflv.net/ver/cyberpunk-edgerunners-9",
+      "img":"https://static.wikia.nocookie.net/cyberpunk/images/2/2f/Humanity_Infobox_CPEDGE.png",
+      "description":"Lucy’s captors learn about her secret mission and dark past. David and his team head out to complete Faraday’s job but realize that something is off."
+    },
+    {
+      "name":"My Moon My Man",
+      "id":9,
+      "duration":"26:54",
+      "link":"https://www3.animeflv.net/ver/cyberpunk-edgerunners-10",
+      "img":"https://static.wikia.nocookie.net/cyberpunk/images/4/48/MyMoonMyMan_Infobox_CPEDGE.png",
+      "description":"On the edge of cyberpsychosis but determined to save Lucy, David storms into Night City as Arasaka plots to deploy their ultimate lethal weapon."
+    }  
+  ]
+
+}

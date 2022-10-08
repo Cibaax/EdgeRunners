@@ -2,21 +2,26 @@ import * as React from "react";
 
 import './Nav.css'; 
 function Nav(){
-    return(
-        <div className="Nav">
-            <img className='logo-edgerunners' src="https://upload.wikimedia.org/wikipedia/commons/9/90/Cyberpunk_Edgerunners_logo.png" alt="logo-edgerunners" />
-        <nav>
-            
+  return(
+    <nav>
+      <ul>
+        <li><a href="/characters"><i class="Characters"></i>Characters</a></li>
+        <li><a href="/music"><i class="home"></i>Music</a></li>
+       {/*  <li>
+          <Link to="/Characters" class="characters" >Characters</Link>
+        </li>
+        <li>
+          <Link to='/Music' class='music'>Music</Link>
+        </li> */}
+      </ul>
+            <a href="/">
+                <img  className='logo-edgerunners' src="https://upload.wikimedia.org/wikipedia/commons/9/90/Cyberpunk_Edgerunners_logo.png" alt="logo-edgerunners" />
+            </a>
             <ul>
-            <li><a href="#logo"><i class="icon-home"></i>Home</a></li>
-            <li><a href="#about"><i class="icon-user"></i>About</a></li>
-            <li><a href="#portfolio"><i class="icon-thumbs-up-alt"></i>Portfolio</a></li>
-            <li><a href="#services"><i class="icon-gear"></i>Services</a></li>
-            <li><a href="#gallery"><i class="icon-picture"></i>Gallery</a></li>
-            <li><a href="#contact"><i class="icon-phone"></i>Contact</a></li>
-            </ul>
-        </nav>
-        </div>
-    )
+            <li><a href="/episodes"><i class="episodes"></i>Episodes</a></li>
+            <li><a href="/locations"><i class="locations"></i>Locations</a></li>
+      </ul>
+    </nav>
+  )
 }
 export default Nav

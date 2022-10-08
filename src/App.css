@@ -4,22 +4,28 @@
   height: 100vh;
   width: 100vw;
 } */
+*{
+  background: url(../../img/background.png)no-repeat center center fixed;
+    background-size:contain;
+    background-repeat: repeat;
+}
 
 .all-characters{
-  height: 50vh;
+  height: 45vh;
   width: 100vw;
-  background-color: aqua;
+
   display: flex;
   justify-content: center;
- 
+  align-items: center;
   }
-  .all-characters .img{
-      width: 100%;
-      height: auto;
+  .imgBanner{
+    height: auto;
+    width: 100%;
+    
    }
 
 .characters{
-  height: 50vh;
+  height: 40vh;
   width: 100vw;
-  background-color:aquamarine;
+  
 }

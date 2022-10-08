@@ -1,0 +1,24 @@
+*{
+    padding: none;
+    user-select: none;    
+    border: none;
+    /* background: url(../../img/background.png)no-repeat center center fixed;
+    background-size:contain;
+    background-repeat: repeat; */
+    
+}
+.characters{
+    height: 100vh;
+    display: flex;
+   
+    
+
+    align-items: center;
+
+}
+img{
+    width: 250px;
+    border-radius: 15px;
+    margin: left 15px;
+    margin-right: 15px;
+}
