@@ -16,11 +16,11 @@ const Characters = () => {
     <div className='characters'>
         {characters!= null ? (
             characters.map(character=>(
-                <div classNmae='card'key ={character.id}>
+                <div className='card'key ={character.id}>
                     <a href={`/character/${character.id}`}>
                     <img className='imgCard'src={character.image} alt="characterImage" />
                     </a>
-                    <img className='nameCard'src={david} alt="" />
+                    <p></p>
                 </div>
             ))
         ):('x')}
