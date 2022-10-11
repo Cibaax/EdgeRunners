@@ -10,9 +10,10 @@ body {
   background-size: cover;
   
  */
- background: url(./img/background3.png)no-repeat center center fixed;
- background-size:contain;
- background-repeat: repeat;}
+ background: url('./img/background4.png')no-repeat center center fixed;
+ background-size:cover;
+ 
+ }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
