@@ -13,19 +13,22 @@
     align-items: center;
 
 }
-.card{
-    display: flex;
-    position: relative;
-}
-.imgCard{
-    width: 250px;
-    border-radius: 15px;
-    margin: left 15px;
-    margin-right: 15px;
-}
-.nameCard{
-width: 15%;
-position:fixed;
-
-
-}
+.card {
+    display: grid;
+    grid-template-columns: 150px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+    margin-left: 100px;
+    size: 100%;
+    
+  }
+/* .imgCard{
+    
+} */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
