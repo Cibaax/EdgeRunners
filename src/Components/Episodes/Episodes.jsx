@@ -10,21 +10,22 @@ const Episodes = () => {
     allEpisodes(setEpisodes)
   },[])
   return (
-    <div> 
+    <> 
         <Nav/>
     <div className='episodes-1'>
       {episodes!=null?(
         episodes.map(episodes=>(
-          <div className='episodesImages' key={episodes.id}>
-            <a href={`/episode/${episodes.id}`}>
+          <div className='episodesCard' key={episodes.id}>
+            <a className='imageEpisode' href={`/episode/${episodes.id}`}>
               <img src={episodes.img} alt="episodes.img" />
-            </a>
               <p>{episodes.name}</p>
+            </a>
+            
           </div>
         ))
       ):('')}
     </div>
-    </div>
+    </>
   )
 }
 

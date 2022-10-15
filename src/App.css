@@ -6,22 +6,4 @@
 } */
 
 
-.all-characters{
-  height: 45vh;
-  width: 100vw;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-  .imgBanner{
-    height: auto;
-    width: 100%;
-    
-   }
-
-.characters{
-  height: 40vh;
-  width: 100vw;
-  
-}

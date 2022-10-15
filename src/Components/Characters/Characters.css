@@ -2,33 +2,79 @@
     padding: none;
     user-select: none;    
     border: none;
-    /* background: url(../../img/background.png)no-repeat center center fixed;
-    background-size:contain;
-    background-repeat: repeat; */
-    
 }
-.characters{
-    height: 100vh;
-    display: flex;
-    align-items: center;
+.containerCharacters {
+  height: 99vh;
+  width: 100vw;
+  
+  
+}
+.NavCharacters{
+  height: 10vh;
+}
 
+.characters {  
+  height: 70vh;
+  display: flex;
+  margin-top: 50px;
+  align-items: center;  
 }
-.card {
-    display: grid;
-    grid-template-columns: 150px;
-    border-radius: 18px;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-    transition: 0.5s ease;
-    cursor: pointer;
-    margin:30px;
-    margin-left: 100px;
-    size: 100%;
-    
-  }
-/* .imgCard{
-    
-} */
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
-  }
+.backgorundCharacter{
+  margin-top: 35px;
+}
+
+
+.tiltCardCharacter{
+  display: flex;
+  height: 435px;
+  margin-left: 85px;
+  margin-right: 85px; 
+  transition: 0.5s ease;
+  transform-style: preserve-3d; 
+}
+.imageCharacter{
+  position: absolute;
+  height: 305px;
+  margin-top: 5px;
+  margin-left: 25px;
+  transform: translateZ(30px);
+  top: 0;
+}
+.nameCharacter{
+  position: absolute;
+  bottom: 85px;
+  right: 15px;
+  font-size: 35px;
+  font-family: name;
+  color: white;
+  transform: translateZ(25px);
+}
+.logoEdgerunnersCard{
+  position: absolute;
+  width: 150px;
+  bottom: 65px;
+  transform: translateZ(20px);
+  right: 18px;
+}
+.statusCharacter{
+  position: absolute;
+  width:max-content;
+  bottom: 30px;
+  left: 25px;
+  font-size: 23px;
+  color: white;
+  transform: translateZ(15px);
+}
+
+.imgCardCharacter:hover{
+  transform: scale(1.05);
+}
+
+.deadText{
+  color: rgb(216, 31, 31);
+}
+
+.liveText{
+  color: rgb(93, 189, 30);
+}
+

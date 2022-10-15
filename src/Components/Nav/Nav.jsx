@@ -5,21 +5,15 @@ function Nav(){
   return(
     <nav>
       <ul>
-        <li><a href="/characters"><i class="Characters"></i>Characters</a></li>
-        <li><a href="/music"><i class="home"></i>Music</a></li>
-       {/*  <li>
-          <Link to="/Characters" class="characters" >Characters</Link>
-        </li>
-        <li>
-          <Link to='/Music' class='music'>Music</Link>
-        </li> */}
+        <li><a href="/characters#item0"><i className="charactersNav"></i>CHARACTERS</a></li>
+        <li><a href="/music"><i className="home"></i>MUSIC</a></li>
       </ul>
             <a href="/">
                 <img  className='logo-edgerunners' src="https://upload.wikimedia.org/wikipedia/commons/9/90/Cyberpunk_Edgerunners_logo.png" alt="logo-edgerunners" />
             </a>
             <ul>
-            <li><a href="/episodes"><i class="episodes"></i>Episodes</a></li>
-            <li><a href="/locations"><i class="locations"></i>Locations</a></li>
+            <li><a href="/episodes"><i className="episodes"></i>EPISODES</a></li>
+            <li><a href="/locations"><i className="locations"></i>LOCATIONS</a></li>
       </ul>
     </nav>
   )

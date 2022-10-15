@@ -1,0 +1,39 @@
+*{
+
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.tarjeta{
+  width: 20px;
+}
+
+.tilt{
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  width: 100%;
+}
+
+
+
+.cardBack{
+  position: absolute;
+  width: 100%; 
+  /* box-shadow: 20px 14px 26px -8px rgba(0,0,0,0.75); */
+}
+.cardCharacter{
+  position: relative;
+  transform: translateZ(75px);
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+   
+  
+}
+
+
+

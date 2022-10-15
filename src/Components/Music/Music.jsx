@@ -1,26 +1,22 @@
 import React from 'react'
-import './Music.css';
-import {allCharacters} from '../../functions/functions'
-import { useEffect, useState } from 'react'
+import Nav from '../Nav/Nav'
+import './Music.css'
+import Tilt from 'react-vanilla-tilt';
+import Image1 from '../../img/david1.png';
+import Image from '../../img/David.png';
 
-const Music=()=> {
-  const [characters, setCharacters]= useState(null)
-      useEffect(()=>{
-          allCharacters(setCharacters)
-      },[])
+function Music() {
   return (
-    <>
-      {characters!= null ? (
-            characters.map(character=>(
-                <div className='card'key ={character.id}>
-                    <a href={`/character/${character.id}`}>
-                    <img className='imgCard'src={character.image} alt="characterImage" />
-                    </a>
-                    <p>{character.name}</p>
-                </div>
-            ))
-        ):('x')}
-  </>
+<div className="App">
+
+          <Tilt className="tilt" /* style={{background: (0,0,0,0)}} */>
+            <img className='cardBack'src={Image}/>
+              <img className='cardCharacter'src={Image1} />
+            
+            
+          </Tilt>
+          </div>
+
 
   )
 }
