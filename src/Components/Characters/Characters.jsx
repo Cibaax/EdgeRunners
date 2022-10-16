@@ -36,7 +36,7 @@ const Characters = () => {
         {characters!= null ? (
             characters.map(character=>(
               <a href={`/character/${character.id}`}>
-                <Tilt className="tiltCardCharacter" src='' options={options} key ={character.id} id={`item${character.id}`}>
+                <Tilt className="tiltCardCharacter"  options={options} key ={character.id} id={`item${character.id}`}>
                 <img className='backgorundCharacter'src={card} alt="characterImage" />
                 <img className='imageCharacter'src={character.imageCard} alt="characterImage" />
                 <p className='nameCharacter'>{character.alias}</p>

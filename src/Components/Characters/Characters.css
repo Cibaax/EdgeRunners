@@ -3,7 +3,7 @@
     user-select: none;    
     border: none;
     
-    cursor:url('../../img/cursor.png'),default;
+    cursor:url('../../img/image\ \(1\).png'),auto;
     
 }
 
@@ -11,8 +11,7 @@
 .containerRotate{
   
   width: 100vh;
-  height: 99vw;
-  
+  height: 100vw;  
   transform: rotate(-90deg) translateX(-100vh);
   transform-origin: top left;
   overflow-y: scroll;
@@ -37,8 +36,8 @@
 
 .backgorundCharacter{
   margin-top: 35px;
-  
 }
+
 
 
 .tiltCardCharacter{
@@ -46,8 +45,8 @@
   height: 435px;
   margin-left: 85px;
   margin-right: 85px; 
-  transition: 0.5s ease;
   transform-style: preserve-3d; 
+  
 }
 .imageCharacter{
   position: absolute;
@@ -56,6 +55,7 @@
   margin-left: 25px;
   transform: translateZ(30px);
   top: 0;
+  transition: 0.5s ease;
 }
 .nameCharacter{
   position: absolute;
@@ -83,9 +83,6 @@
   transform: translateZ(15px);
 }
 
-.tiltCardCharacter:hover{
-  transform: scale(1.05);
-}
 
 .deadText{
   color: rgb(216, 31, 31);

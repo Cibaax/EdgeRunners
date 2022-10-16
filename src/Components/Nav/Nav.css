@@ -23,6 +23,7 @@ nav{
 .logo-edgerunners{
   width: 300px;
   height: auto;
+  
 }
 .logo-edgerunners:hover{
   transform: scale(1.05);
@@ -51,7 +52,5 @@ Nav ul li a:hover{
   transition: all 0.5s ease 0s;
 }
 
-p{
-  text-shadow: #ee0606;
-}
+
 
