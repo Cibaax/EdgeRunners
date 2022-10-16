@@ -2,25 +2,42 @@
     padding: none;
     user-select: none;    
     border: none;
-}
-.containerCharacters {
-  height: 99vh;
-  width: 100vw;
-  
-  
-}
-.NavCharacters{
-  height: 10vh;
+    
+    cursor:url('../../img/cursor.png'),default;
+    
 }
 
+
+.containerRotate{
+  
+  width: 100vh;
+  height: 99vw;
+  
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  
+  
+}
 .characters {  
   height: 70vh;
   display: flex;
-  margin-top: 50px;
-  align-items: center;  
+  right: 150px;
+  margin-left: -120px;
+  align-items: center;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+  
+  
+  
+  
 }
+
 .backgorundCharacter{
   margin-top: 35px;
+  
 }
 
 
@@ -66,7 +83,7 @@
   transform: translateZ(15px);
 }
 
-.imgCardCharacter:hover{
+.tiltCardCharacter:hover{
   transform: scale(1.05);
 }
 

@@ -28,10 +28,10 @@ const Characters = () => {
       
   return (
     <div className='containerCharacters'>
-    <div className='NavCharacters'> 
-        <Nav/>
-    </div>
     
+
+   
+    <div className='containerRotate'>
     <div className='characters'>
         {characters!= null ? (
             characters.map(character=>(
@@ -48,6 +48,8 @@ const Characters = () => {
         ):('x')}      
         <div> </div>
       </div>
+    </div>
+    <Nav/>
     </div>
 
   )
