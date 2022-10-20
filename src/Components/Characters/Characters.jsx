@@ -3,8 +3,7 @@ import {allCharacters} from '../../functions/functions'
 import { useEffect, useState, useRef } from 'react'
 import './Characters.css';
 import Nav from '../Nav/Nav'
-import arrowLeft from '../../img/arrow_left.png'
-import arrowRight from '../../img/arrow_right.png'
+
 import VanillaTilt from 'vanilla-tilt';
 import card from '../../img/card2.png'
 import logoEdgerunners from '../../img/logoEdgerunners.png'
@@ -42,11 +41,12 @@ const Characters = () => {
                 <p className='nameCharacter'>{character.alias}</p>
                 <img className='logoEdgerunnersCard'src={logoEdgerunners} alt="logoEdgerunners" />
                 <p className='statusCharacter'>STATUS:<span className={character.status === 'Alive' ? 'liveText' : 'deadText'}>{character.status}</span></p>
+                
               </Tilt>
               </a>
               ))
         ):('x')}      
-        <div> </div>
+        
       </div>
     </div>
     <Nav/>

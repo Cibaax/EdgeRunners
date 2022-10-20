@@ -2,11 +2,152 @@
     padding: none;
     user-select: none;    
     border: none;
-    user-select: none;
+    user-select: none;   
+    scroll-behavior: smooth;
+    
+    
+    
 }
-.episodes-1{
-    height: 99vh;
-    display: grid;
-    user-select: none;
-        
+
+.containerEpisodes{
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.episodesCard{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    transition: all 0.5s ease 0s;
+    align-items:center;
+    overflow-y: hidden;
+    scroll-snap-align: start;
+    background-color: yellow;
+    z-index: 10;
+}
+
+
+.imageFullEpisode{
+    height: 100%;
+    width: 100%;    
+    filter: blur(3px);
+    
+    
+}
+
+.episodeName{
+    left: 400px;
+    font-family: custom;
+    color: yellow;
+    font-size: 70px;
+    text-shadow: 1px 1px 2px black;
+    position: absolute;
+    margin-bottom: 370px;
+}
+.episodeDescription{
+    position: absolute;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    width: 450px;
+    height: fit-content;
+    color: white;
+    left: 400px;
+    margin-bottom: 85px;
+}
+.cardEpisodeBorder{
+    position: absolute;
+    height: 250px;
+    width: auto;
+    right: 50px;
+    transition: all 0.5s ease 0s;
+}
+.cardEpisodeBorder:hover{
+    transform: scale(1.05);
+}
+.logoEdgerunnersEpisode{
+    position: absolute;
+    height: 30px;
+    right: 125px;
+    margin-top: -137px;
+}
+.episodeDuration{
+    position: absolute;
+    right: 80px;
+    margin-top: 240px;
+    font-size: 25px;
+    color: yellow;
+}
+
+.arrows{
+    position: absolute;
+    height: 60vh;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 150px;
+    margin-bottom: -100px;
+}
+
+.arrows img{
+    width: 100%;
+}
+.companies{
+    position: absolute;
+    width: 150px;
+    right: 150px;
+    display: flex;
+    margin-top: 530px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cdprojekt{
+    width: 100%;
+    height: 100%;
+    transition:  0.5s ease;
+}
+.trigger{
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    transition:  0.5s ease;
+}
+.companies p{
+    font-size: 45px;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.trigger:hover{
+    transform: scale(1.05);
+}
+.cdprojekt:hover{
+    transform: scale(1.05);
+}
+.cdprojekt img{
+    width: 150px;
+    transition:  0.5s ease;
+}
+.trigger img{
+    width: 150px;
+    transition:  0.5s ease;
+}
+.netflix{
+    position: absolute;
+    height: 50px;
+    left: 530px;
+    margin-top: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.netflix p{
+    color: white;
+    font-size: 25px;
+}
+.netflix img{
+height: 100%;
+margin: 10px;
 }

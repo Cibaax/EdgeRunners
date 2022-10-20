@@ -3,7 +3,7 @@
     user-select: none;    
     border: none;
     
-    cursor:url('../../img/image\ \(1\).png'),auto;
+    cursor:url('../../img/cur.png'),auto;
     
 }
 
@@ -29,9 +29,10 @@
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
   
-  
-  
-  
+}
+
+.tiltCardCharacter:not(:hover){
+  filter: grayscale(35%);
 }
 
 .backgorundCharacter{
@@ -50,9 +51,9 @@
 }
 .imageCharacter{
   position: absolute;
-  height: 305px;
-  margin-top: 5px;
-  margin-left: 25px;
+  height: 335px;
+  margin-top: -20px;
+  margin-left: 8px;
   transform: translateZ(30px);
   top: 0;
   transition: 0.5s ease;
