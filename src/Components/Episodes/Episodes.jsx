@@ -10,10 +10,13 @@ import trigger from '../../img/trigger.png'
 import cdprojekt from '../../img/cdprojekt.png'
 import netflix from '../../img/netflix.png'
 const Episodes = () => {
+  
   const [episodes, setEpisodes]= useState(null) 
   useEffect(()=>{
     allEpisodes(setEpisodes)
   },[])
+
+
   return (
     <div className='containerEpisodes'>
       <Nav/>
@@ -21,16 +24,17 @@ const Episodes = () => {
         <div className={`episodesCard`} key={episodes.id} id={`id${episodes.id}`}>
           <img className='imageFullEpisode'src={episodes.imgFull} alt="episodesasd" />
           <img className='cardEpisodeBorder'src={episodes.imgBorder} alt="episodesImgBorder" />
+          <p className='numberEpisode'src={episodes.imgBorder} alt="episodesImgBorder">{episodes.id+1}</p>
           <p className='episodeName'>{episodes.name}</p>
           <p className='episodeDescription'>{episodes.description}</p>
           <p className='episodeDuration'>{episodes.duration}</p>
           <img className='logoEdgerunnersEpisode'src={logoEdgerunners} alt="" />
           <div className='arrows'>
             <a className='arrowUp' href={`#id${episodes.id-1}`}>
-              <img href={`#id${episodes.id-1}`} src={arrowUp}></img>
+              <img href={`#id${episodes.id-1}`} src={arrowUp} alt=''></img>
             </a>
             <a className='arrowDown' href={`#id${episodes.id+1}`}>
-              <img href={`#id${episodes.id-1}`} src={arrowDown}></img>
+              <img href={`#id${episodes.id-1}`} src={arrowDown} alt=''></img>
             </a>
           </div>
           <div className='netflix'>

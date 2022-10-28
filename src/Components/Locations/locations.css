@@ -1,0 +1,100 @@
+.background{
+    height: 100vh;
+    width: 100vw;
+    background: url(../../img/map4.png)no-repeat fixed;
+    background-size:cover;
+}
+
+.selectedLocation0{
+    position: absolute;
+    width: 250px;
+    top:260px;
+    left: 490px;
+    
+}
+.selectedLocation1{
+    position: absolute;
+    width: 297px;
+    top:330px;
+    left:458px;
+}
+.selectedLocation2{
+    position: absolute;
+    width: 385px;
+    top:81px;
+    left:541px;
+}
+.selectedLocation3{
+    position: absolute;
+    width: 254px;
+    top:230px;
+    left:693px;
+}
+.selectedLocation4{
+    position: absolute;
+    width: 339px;
+    top: 398px;
+    left: 551px;
+}
+
+.selectedLocationHover0{
+    position: absolute;
+    width: 250px;
+    top:265px;
+    left: 490px;
+    transform: scale(0.90);
+    z-index: 20;
+}
+
+.selectedLocationHover0:not(:hover){
+    filter: opacity(0);
+}
+.selectedLocationHover1{
+    position: absolute;
+    width: 297px;
+    top:335px;
+    left:458px;
+    transform: scale(0.90);
+    z-index: 18;
+}
+
+.selectedLocationHover1:not(:hover){
+    filter: opacity(0);
+}
+.selectedLocationHover2{
+    position: absolute;
+    width: 385px;
+    top:86px;
+    left:541px;
+
+    transform: scale(0.90);
+}
+
+.selectedLocationHover2:not(:hover){
+    filter: opacity(0);
+}
+.selectedLocationHover3{
+    position: absolute;
+    width: 254px;
+    top:230px;
+    left:693px;
+
+    transform: scale(0.90);
+}
+
+.selectedLocationHover3:not(:hover){
+    filter: opacity(0);
+}
+
+.selectedLocationHover4{
+    position: absolute;
+    width: 339px;
+    top: 398px;
+    left: 551px;
+
+    transform: scale(0.90);
+}
+
+.selectedLocationHover4:not(:hover){
+    filter: opacity(0);
+}

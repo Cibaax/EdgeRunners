@@ -43,7 +43,9 @@
     font-size: 70px;
     text-shadow: 1px 1px 2px black;
     position: absolute;
-    margin-bottom: 370px;
+    margin-bottom: 340px;
+    width: 327px;
+   
 }
 .episodeDescription{
     position: absolute;
@@ -53,7 +55,9 @@
     height: fit-content;
     color: white;
     left: 400px;
-    margin-bottom: 85px;
+    
+   
+    
 }
 .cardEpisodeBorder{
     position: absolute;
@@ -61,6 +65,16 @@
     width: auto;
     right: 50px;
     transition: all 0.5s ease 0s;
+}
+.numberEpisode{
+    position: absolute;
+    height: 150px;
+    width: auto;
+    left: 125px;
+    transition: all 0.5s ease 0s;
+    color: yellow;
+    font-size: 150px;
+    font-family: name;
 }
 .cardEpisodeBorder:hover{
     transform: scale(1.05);
@@ -82,7 +96,7 @@
 .arrows{
     position: absolute;
     height: 60vh;
-    width: 100px;
+    width: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

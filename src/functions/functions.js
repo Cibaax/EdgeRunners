@@ -19,3 +19,7 @@ export const singleEpisode= async(id, state)=>{
     const request =await axios.get(`https://edgerunners-927aa-default-rtdb.firebaseio.com/episodes/${id}.json`)
     state(request.data)
 }
+export const allLocations= async(state)=>{
+    const request = await axios.get('https://edgerunners-927aa-default-rtdb.firebaseio.com/locations.json')
+    state(request.data)
+}
